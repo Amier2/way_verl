@@ -362,6 +362,8 @@ You are a data science expert. Below, you are provided with a database schema an
 Database Engine:
 {db_engine}
 
+Database Schema:
+{db_details}
 This schema describes the database's structure, including tables, columns, primary keys, foreign keys, and any relevant relationships or constraints.
 
 Question:
