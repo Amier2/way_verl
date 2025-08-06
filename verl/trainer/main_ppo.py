@@ -24,8 +24,8 @@ def _select_rm_score_fn(data_source):
     if data_source == 'openai/gsm8k':
         return gsm8k.compute_score
     elif "synsql" in data_source or "bird" in data_source:
-        # return synsql.compute_score
-        return qatch_score.compute_score
+        return synsql.compute_score
+        # return qatch_score.compute_score
     else:
         raise NotImplementedError
 
